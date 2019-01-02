@@ -1,0 +1,75 @@
+.light-theme {
+  #sidebar {
+    background-color: #333E45;
+    .tag {
+      color: #fdfdfd;
+      &.button:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+      &.label.active, &.button:active {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  #middlebar {
+    background-color: #fdfdfd;
+    .layout-header {
+      background: #f4f4f4;
+      border-color: #d8d8d8;
+      .search > * {
+        margin-bottom: 0 !important;
+      }
+      input {
+        width: 0;
+      }
+    }
+    .header {
+      background-color: #f8f8f8;
+      border-bottom: 1px solid #e2e2e2 !important;
+      color: rgba(31, 31, 31, 0.65);
+      .sort-by, .sort-type {
+        background-color: #f8f8f8;
+      }
+    }
+    .note-button {
+      &.button:hover {
+        background-color: #f3f3f3;
+      }
+      &.label.active, &.button:active {
+        background-color: #eeeeee;
+      }
+    }
+  }
+
+  #mainbar {
+    background-color: #f4f4f4;
+    border-left: 1px solid #d8d8d8;
+    .layout-header {
+      background: #f4f4f4;
+      border-color: #d8d8d8;
+    }
+    .header {
+      border-bottom: 1px solid #d8d8d8 !important;
+    }
+    .editor {
+      background-color: #fdfdfd;
+    }
+  }
+  .editor.preview {
+    background-color: #fdfdfd;
+  }
+
+  .editor.preview {
+    p code, li code, table code {
+      background-color: rgba(27, 31, 35, 0.05) !important;
+      padding: .2em .4em !important;
+    }
+  }
+
+  #cwd .layout-header, #error-boundary .layout-header {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #d8d8d8 !important;
+  }
+
+}

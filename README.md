@@ -50,6 +50,8 @@ Part of this comparison is personal opinion: you may disagree on the UI front, t
 
 ## Contributing
 
+This project require nodejs >= 8
+
 If you have an idea, or you have found a problem, please open an [issue](https://github.com/fabiospampinato/notable/issues) about it.
 
 If you want to make a pull request, or fork the app, you should:
@@ -62,6 +64,16 @@ npm run svelto:dev
 npm run iconfont
 npm run tutorial
 npm run dev
+```
+
+### Manually compile misc css
+* TODO: Integrate into Svelto
+* TODO: Use Svelto variable
+
+Every time you want to change misc css, please compile it manually
+
+```
+sass src/renderer/template/misc.scss src/renderer/template/misc.css
 ```
 
 ## Related

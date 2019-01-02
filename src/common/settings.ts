@@ -16,6 +16,7 @@ const Settings = new Store ({
         lineWrapping: true
       }
     },
+    theme: 'light',
     sorting: {
       by: 'title',
       type: 'ascending'
